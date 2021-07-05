@@ -1,5 +1,3 @@
-
-![Cover](/images/gradulation-cut.jpg)
 ---
 permalink: /
 title: "About me"
@@ -9,6 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+![Cover](/images/gradulation-cut.jpg)
+
 I am the first-year graduate / PhD student at VRVC Lab, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), advised by Prof. [Jingyi Yu](http://www.yu-jingyi.com/cv/). I aslo obtained my B.E. in **Computer Science and Technology** at ShanghaiTech University. I am passionate and interested in **3D reconstruction and neural rendering** tasks in Computer Vision, Computer Graphics and Bioinformatics fields. Beyond acdemics, I love music, photography and basketball.
 
 # Contacts
