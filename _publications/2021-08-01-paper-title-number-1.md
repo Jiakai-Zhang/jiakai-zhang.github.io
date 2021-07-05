@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 3"
+title: "Editable Free-Viewpoint Video using a Layered Neural Representation"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2021-08-01-paper-title-number-1
+excerpt: 'In this paper we propose the first approach for editable photo-realistic free-viewpoint video generation for large-scale dynamic scenes using only sparse 16 cameras. '
+date: 2020-08
+venue: 'SIGGRAPH 2021'
+paperurl: 'https://arxiv.org/pdf/2104.14786.pdf'
+citation: 'Jiakai Zhang, Xinhang Liu, Xinyi Ye, Fuqiang Zhao, Yanshun Zhang, Minye Wu, Yingliang Zhang, Lan Xu, Jingyi Yu. (2021). &quot;Editable Free-Viewpoint Video using a Layered Neural Representation.&quot; <i>SIGGRAPH 2021</i>. 0(0).'
 ---
-This paper is about the number 3. The number 4 is left for future work.
+In this paper we propose the first approach for editable photo-realistic free-viewpoint video generation for large-scale dynamic scenes using only sparse 16 cameras. 
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+[Download paper here](https://arxiv.org/pdf/2104.14786.pdf)
