@@ -1,3 +1,5 @@
+
+![Cover](/images/gradulation-cut.jpg)
 ---
 permalink: /
 title: "About me"
