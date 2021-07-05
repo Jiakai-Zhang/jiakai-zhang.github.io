@@ -6,6 +6,8 @@ excerpt: 'In this paper we propose the first approach for editable photo-realist
 date: 2021-08-01
 venue: 'SIGGRAPH'
 paperurl: 'https://arxiv.org/pdf/2104.14786.pdf'
+codeurl: 'https://github.com/DarlingHang/st-nerf'
+projecturl: 'https://jiakai-zhang.github.io/st-nerf/'
 ---
 In this paper we propose the first approach for editable photo-realistic free-viewpoint video generation for large-scale dynamic scenes using only sparse 16 cameras. 
 
