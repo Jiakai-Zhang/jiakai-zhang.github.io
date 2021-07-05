@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Resume
-See my latest resume [here](/documents/Resume.pdf)
+See my latest resume [here](https://jiakai-zhang.github.io/files/Resume.pdf)
 
 Publications
 ======
