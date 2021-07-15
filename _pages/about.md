@@ -13,4 +13,4 @@ I am the first-year graduate / PhD student at VRVC Lab, [ShanghaiTech University
 
 # Contacts
 ------
-Contact me with zhangjk\[at\]shanghaitech\[dot\]edu\[dot\]cn
+Contact me with zhangjk \[at\] shanghaitech \[dot\] edu \[dot\] cn
