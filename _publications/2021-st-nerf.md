@@ -8,6 +8,8 @@ venue: 'SIGGRAPH'
 paperurl: 'https://arxiv.org/pdf/2104.14786.pdf'
 codeurl: 'https://github.com/DarlingHang/st-nerf'
 projecturl: 'https://jiakai-zhang.github.io/st-nerf/'
+twominutepaperurl: 'https://www.youtube.com/watch?v=UrB-tqA8oeg&t=2s'
+interviewurl: 'https://www.deutschlandfunk.de/ki-in-der-computergrafik-tanzvideos-mit-digital.684.de.html?dram:article_id=502957'
 authors: 'Jiakai Zhang, Xinhang Liu, Xinyi Ye, Fuqiang Zhao, Yanshun Zhang, Minye Wu, Yingliang Zhang, Lan Xu and Jingyi Yu'
 ---
 In this paper we propose the first approach for editable photo-realistic free-viewpoint video generation for large-scale dynamic scenes using only sparse 16 cameras. 
