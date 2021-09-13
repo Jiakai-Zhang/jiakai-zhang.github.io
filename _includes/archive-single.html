@@ -58,10 +58,10 @@
     
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.paperurl and post.projecturl and post.codeurl%}
-      <p>| <a href=" {{ post.projecturl }} "><u>Project</u></a> | <a href=" {{ post.codeurl }} "><u>Code</u></a> | <a href=" {{ post.paperurl }} "><u>Paper</u></a> |</p>
     {% elsif post.paperurl and post.projecturl and post.codeurl and post.twominutepaperurl and post.interviewurl%}
       <p>| <a href=" {{ post.projecturl }} "><u>Project</u></a> | <a href=" {{ post.codeurl }} "><u>Code</u></a> | <a href=" {{ post.paperurl }} "><u>Paper</u></a> | <a href=" {{ post.twominutepaperurl }} "><u>Two Minute Papers</u></a> | <a href=" {{ post.twominutepaperurl }} "><u>Interview with German National Audio</u></a></p>
+    {% elsif post.paperurl and post.projecturl and post.codeurl%}
+      <p>| <a href=" {{ post.projecturl }} "><u>Project</u></a> | <a href=" {{ post.codeurl }} "><u>Code</u></a> | <a href=" {{ post.paperurl }} "><u>Paper</u></a> |</p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
