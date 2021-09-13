@@ -12,4 +12,4 @@ authors: 'Jiakai Zhang, Xinhang Liu, Xinyi Ye, Fuqiang Zhao, Yanshun Zhang, Miny
 ---
 In this paper we propose the first approach for editable photo-realistic free-viewpoint video generation for large-scale dynamic scenes using only sparse 16 cameras. 
 
-[Project Page](https://jiakai-zhang.github.io/st-nerf/) | [Code](https://github.com/DarlingHang/st-nerf) | [Paper](https://arxiv.org/pdf/2104.14786.pdf)
+[Project Page](https://jiakai-zhang.github.io/st-nerf/) | [Code](https://github.com/DarlingHang/st-nerf) | [Paper](https://arxiv.org/pdf/2104.14786.pdf) | [Two Minute Papers](https://www.youtube.com/watch?v=UrB-tqA8oeg&t=2s) | [Interview by German National Audio](https://www.deutschlandfunk.de/ki-in-der-computergrafik-tanzvideos-mit-digital.684.de.html?dram:article_id=502957)
