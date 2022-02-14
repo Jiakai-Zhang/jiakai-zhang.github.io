@@ -13,4 +13,4 @@ I am the second-year graduate student and expected PhD student at VRVC Lab, [Sha
 
 # Contacts
 ------
-Contact me with zhangjk \[at\] shanghaitech \[dot\] edu \[dot\] cn (Substitute \[at\] by @)
+Contact me with zhangjk \[at\] shanghaitech \[dot\] edu \[dot\] cn (Substitute \[at\] by "@", \[dot\] by ".")
