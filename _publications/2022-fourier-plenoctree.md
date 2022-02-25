@@ -6,7 +6,7 @@ excerpt:  'In this paper, we present a novel Fourier PlenOctree (FPO) technique 
 date: 2022-1-1
 venue: 'Arxiv'
 paperurl: 'https://arxiv.org/pdf/2202.08614.pdf'
-codeurl: 'https://arxiv.org/abs/2202.08614'
+codeurl: 'https://aoliao12138.github.io/FPO/'
 projecturl: 'https://aoliao12138.github.io/FPO/'
 authors: 'Liao Wang*, Jiakai Zhang*, Xinhang Liu, Fuqiang Zhao, Yanshun Zhang, Yingliang Zhang, Minye Wu, Lan Xu, Jingyi Yu'
 ---
