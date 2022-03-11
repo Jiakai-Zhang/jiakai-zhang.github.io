@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-humannerf
 excerpt: 'We present HumanNeRF - a generalizable neural representation - for high-fidelity free-view synthesis of dynamic humans.'
 date: 2022-1-1
-venue: 'Accepted at CVPR 2022'
+venue: 'CVPR (Accepted)'
 paperurl: 'https://arxiv.org/pdf/2112.02789.pdf'
 codeurl: 'https://zhaofuq.github.io/human-nerf/'
 projecturl: 'https://zhaofuq.github.io/human-nerf/'
