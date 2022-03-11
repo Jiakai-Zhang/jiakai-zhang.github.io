@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-fourier-plenoctree
 excerpt:  'In this paper, we present a novel Fourier PlenOctree (FPO) technique to tackle efficient neural modeling and real-time rendering of dynamic scenes captured under the free-view video (FVV) setting.'
 date: 2022-1-1
-venue: 'Accepted at CVPR 2022'
+venue: 'CVPR (Accepted)'
 paperurl: 'https://arxiv.org/pdf/2202.08614.pdf'
 codeurl: 'https://aoliao12138.github.io/FPO/'
 projecturl: 'https://aoliao12138.github.io/FPO/'
