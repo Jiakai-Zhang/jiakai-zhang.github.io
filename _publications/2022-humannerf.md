@@ -1,5 +1,5 @@
 ---
-title: "HumanNeRF: Generalizable Neural Human Radiance Field from Sparse Inputs"
+title: "HumanNeRF: Efficiently Generated Human Radiance Field from Sparse Inputs"
 collection: publications
 permalink: /publication/2022-humannerf
 excerpt: 'We present HumanNeRF - a generalizable neural representation - for high-fidelity free-view synthesis of dynamic humans.'
