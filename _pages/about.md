@@ -13,4 +13,4 @@ I am the 3rd year Ph.D. candidate at VRVC Lab, [ShanghaiTech University](https:/
 
 # Contacts
 ------
-Contact me with zhangjk \[at\] shanghaitech \[dot\] edu \[dot\] cn (Substitute \[at\] by "@", \[dot\] by ".")
+School Email: zhangjk@shanghaitech.edu.cn, Personal Email: jiakai0309@gmail.com
