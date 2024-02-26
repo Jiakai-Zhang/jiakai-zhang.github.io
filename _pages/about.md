@@ -9,8 +9,8 @@ redirect_from:
 ---
 <!-- ![Cover](/images/IMG_1629.jpeg) -->
 
-I am the 3rd year Ph.D. candidate at VRVC Lab, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), advised by Prof. [Jingyi Yu](http://www.yu-jingyi.com/cv/). I also obtained my B.E. in **Computer Science and Technology** at ShanghaiTech University. At summer 2022, I joined [Meta Reality Labs](https://about.facebook.com/realitylabs/) as a **research scientist intern** in Redmond, WA. I am passionate and interested in essential **4D reconstruction & rendering** tasks especially for Cryo-EM in Computer Vision, Computer Graphics and Bioinformatics fields.
+I am a 4th-year Ph.D. candidate at VRVC Lab, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), advised by Prof. [Jingyi Yu](http://www.yu-jingyi.com/cv/). Also, I am a co-founder & CEO of a startup, [Cellverse(寰渺科技)](https://www.cellverse.tech), focusing on protein-centric AI technology research & development. Before that, I majored in Computer Science at ShanghaiTech University. In the summer of 2022, I joined [Meta Reality Labs](https://about.facebook.com/realitylabs/) as a research scientist intern in Redmond, WA. I am familiar with 3D scene reconstruction via implicit neural representations such as NeRF and 3D Gaussians. Currently, I am focusing on 4D protein reconstruction and protein design.
 
 # Contacts
 ------
-School Email: zhangjk@shanghaitech.edu.cn, Personal Email: jiakai0309@gmail.com
+School Email: zhangjk@shanghaitech.edu.cn, Personal Email: jiakai0309@gmail.com, Business Cooperation: contact@cellverse.ai
