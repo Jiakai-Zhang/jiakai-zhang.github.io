@@ -13,4 +13,4 @@ I am a 4th-year Ph.D. candidate at VRVC Lab, [ShanghaiTech University](https://w
 
 # Contacts
 ------
-School Email: zhangjk@shanghaitech.edu.cn, Personal Email: jiakai0309@gmail.com, Business Cooperation: contact@cellverse.ai
+School Email: zhangjk@shanghaitech.edu.cn, Personal Email: jiakai0309@gmail.com, Business: jiakai.zhang@cellverse.tech
