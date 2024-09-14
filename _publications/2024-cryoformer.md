@@ -2,7 +2,7 @@
 title: "CryoFormer: Continuous Heterogeneous Cryo-EM Reconstruction using Transformer-based Neural Representations"
 
 collection: publications
-permalink: /publication/2024-cryoformer.md
+permalink: /publication/cryoformer
 excerpt: 'We propose CryoFormer, a new approach for continuous heterogeneous cryo-EM reconstruction. Our approach leverages an implicit feature volume directly in the real domain as the 3D representation. We further introduce a novel query-based deformation transformer decoder to improve the reconstruction quality. Our approach is capable of refining pre-computed pose estimations and locating flexible regions.'
 date: 2024-09-30
 projecturl: 'https://cryoformer.github.io'
