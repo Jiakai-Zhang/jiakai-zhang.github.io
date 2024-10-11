@@ -3,7 +3,7 @@ title: "CryoGEM: Physics-Informed Generative Cryo-Electron Microscopy"
 
 collection: publications
 permalink: /publication/cryogem
-excerpt: 'we introduce physics-informed generative cryo-electron microscopy (CryoGEM), which for the first time integrates physics-based cryo-EM simulation with a generative unpaired noise translation to generate physically correct synthetic cryo-EM datasets with realistic noises.'
+excerpt: 'We introduce physics-informed generative cryo-electron microscopy (CryoGEM), which for the first time integrates physics-based cryo-EM simulation with a generative unpaired noise translation to generate physically correct synthetic cryo-EM datasets with realistic noises.'
 date: 2024-12-09
 projecturl: 'https://jiakai-zhang.github.io/cryogem/'
 venue: 'NeurIPS 2024'
