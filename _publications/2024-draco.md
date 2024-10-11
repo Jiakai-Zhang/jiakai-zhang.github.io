@@ -1,10 +1,11 @@
 ---
-title: "CryoGEM: Physics-Informed Generative Cryo-Electron Microscopy"
+title: "DRACO: A Denoising-Reconstruction Autoencoder for Cryo-EM"
 
 collection: publications
 permalink: /publication/draco
 excerpt: 'We introduce DRACO, a Denoising-Reconstruction Autoencoder for CryO-EM, inspired by the Noise2Noise (N2N) approach.'
 projecturl: 'https://duskngai.github.io/draco/'
+date: 2024-12-09
 venue: 'NeurIPS 2024'
 paperurl: 'https://duskngai.github.io/draco/static/DRACO.pdf'
 authors: 'Yingjun Shen*,  Haizhao Dai*,  Qihe Chen,  Yan Zeng,  Jiakai Zhang,  Yuan Pei, Jingyi Yu'
