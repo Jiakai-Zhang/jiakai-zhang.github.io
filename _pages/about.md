@@ -9,8 +9,15 @@ redirect_from:
 ---
 <!-- ![Cover](/images/IMG_1629.jpeg) -->
 
-I am a 4th-year Ph.D. candidate at VRVC Lab, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), advised by Prof. [Jingyi Yu](http://www.yu-jingyi.com/cv/). Also, I am a co-founder & CEO of a startup, [Cellverse(寰渺科技)](https://www.cellverse.tech), focusing on protein-centric AI technology research & development. Before that, I majored in Computer Science at ShanghaiTech University. In the summer of 2022, I joined [Meta Reality Labs](https://about.facebook.com/realitylabs/) as a research scientist intern in Redmond, WA. I am familiar with 3D scene reconstruction via implicit neural representations such as NeRF and 3D Gaussians. Currently, I am focusing on 4D protein reconstruction and protein design.
+I am a last-year Ph.D. candidate at VRVC Lab, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), advised by Prof. [Jingyi Yu](http://www.yu-jingyi.com/cv/). In the summer of 2022, I joined [Meta Reality Labs](https://about.facebook.com/realitylabs/) as a research scientist intern in Redmond, WA. 
+
+My research interests lie in interdisciplinary reconstruction & generation tasks (e.g., dynamic human, spectrum, and protein) using neural representations. Currently, I am focusing on AI applications in protein-centric tasks, particularly for Cryo-EM, via foundation models and generative models.
+
+I have also served as a reviewer for top conferences, including CVPR, ECCV, ICCV, NeurIPS, and SIGGRAPH.
+
+Beyond academia, I co-founded a startup, [Cellverse(寰渺科技)](https://www.cellverse.tech) for developing protein-centric AI applications.
+
 
 # Contacts
 ------
-School Email: zhangjk@shanghaitech.edu.cn, Personal Email: jiakai0309@gmail.com, Business: jiakai.zhang@cellverse.tech
+Email: zhangjk@shanghaitech.edu.cn
