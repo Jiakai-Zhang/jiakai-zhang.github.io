@@ -1,0 +1,605 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Jiakai Zhang - Ph.D. & Founder">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <span class="nav-logo">import jiakai</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#startup">Startup</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="code-window">
+        <div class="code-header">
+          <span class="code-dot red"></span>
+          <span class="code-dot yellow"></span>
+          <span class="code-dot green"></span>
+          <span class="code-title">jiakai.py</span>
+        </div>
+        <div class="code-body">
+          <span class="code-line comment"># Ph.D. Candidate & Founder</span>
+          <span class="code-line"></span>
+          <span class="code-line"><span class="keyword">from</span> <span class="string">shanghaitech</span> <span class="keyword">import</span> <span class="function">VRVC_Lab</span></span>
+          <span class="code-line"><span class="keyword">from</span> <span class="string">cryoem</span> <span class="keyword">import</span> <span class="function">FoundationModels</span></span>
+          <span class="code-line"><span class="keyword">from</span> <span class="string">ai</span> <span class="keyword">import</span> <span class="function">GenerativeModels</span></span>
+          <span class="code-line"><span class="keyword">from</span> <span class="string">startup</span> <span class="keyword">import</span> <span class="function">Cellverse</span>  <span class="comment"># Co-founder</span></span>
+          <span class="code-line"></span>
+          <span class="code-line"><span class="keyword">def</span> <span class="function">main</span><span class="operator">():</span></span>
+          <span class="code-line">&nbsp;&nbsp;<span class="function">research</span><span class="operator">(</span><span class="string">"AI + Protein"</span><span class="operator">)</span></span>
+          <span class="code-line">&nbsp;&nbsp;<span class="function">build</span><span class="operator">(</span><span class="string">"Future of Biotech"</span><span class="operator">)</span></span>
+          <span class="code-line">&nbsp;&nbsp;<span class="keyword">return</span> <span class="function">impact</span><span class="operator">(</span><span class="string">scale</span><span class="operator">=</span><span class="string">"global"</span><span class="operator">)</span><span class="cursor"></span></span>
+        </div>
+      </div>
+      <div class="hero-social">
+        <a href="mailto:zhangjk@shanghaitech.edu.cn"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://github.com/Jiakai-Zhang" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="#"><i class="fas fa-graduation-cap"></i> Scholar</a>
+        <a href="https://www.linkedin.com/in/jiakai-zhang" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
+      <div class="about">
+        <p>I am a Ph.D. candidate at <a href="https://www.shanghaitech.edu.cn/" target="_blank">ShanghaiTech University</a>, advised by <a href="http://www.yu-jingyi.com/cv/" target="_blank">Prof. Jingyi Yu</a>. My research focuses on AI for structural biology, particularly Cryo-EM via foundation models.</p>
+        <p>Beyond academia, I co-founded <a href="https://www.cellverse.tech" target="_blank"><strong>Cellverse (寰渺科技)</strong></a>, building protein-centric AI applications to accelerate scientific discovery.</p>
+        <p>Previously, I interned at <strong>Meta Reality Labs</strong> working on neural rendering and AR/VR.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-newspaper"></i> News</h2>
+      <div class="news-list">
+        <div class="news-item">
+          <div class="news-date">Dec 2024</div>
+          <div class="news-content"><strong>CryoGEM</strong> & <strong>DRACO</strong> accepted to <strong>NeurIPS 2024</strong>!</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">Aug 2024</div>
+          <div class="news-content"><strong>CryoFormer</strong> accepted to <strong>ECCV 2024 Workshop</strong> (Spotlight)!</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">Jun 2024</div>
+          <div class="news-content">Started internship at <strong>Meta Reality Labs</strong>, Redmond, WA.</div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">2022</div>
+          <div class="news-content">Joined <strong>VRVC Lab</strong> as Ph.D. candidate at ShanghaiTech.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research & Publications -->
+  <section id="research">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-microscope"></i> Research & Publications</h2>
+      
+      <!-- Research Interests -->
+      <div class="research-grid">
+        <div class="research-card">
+          <i class="fas fa-dna"></i>
+          <h3>AI + Protein</h3>
+          <p>Foundation models for Cryo-EM reconstruction and protein structure prediction.</p>
+        </div>
+        <div class="research-card">
+          <i class="fas fa-brain"></i>
+          <h3>Neural Representations</h3>
+          <p>NeRF and implicit representations for 3D reconstruction.</p>
+        </div>
+        <div class="research-card">
+          <i class="fas fa-wand-magic-sparkles"></i>
+          <h3>Generative Models</h3>
+          <p>Diffusion models for scientific imaging and cryo-EM.</p>
+        </div>
+        <div class="research-card">
+          <i class="fas fa-eye"></i>
+          <h3>Computer Vision</h3>
+          <p>Deep learning for 3D understanding and scene reconstruction.</p>
+        </div>
+      </div>
+      
+      <!-- Publications -->
+      <div class="pub-list">
+        <div class="pub-card">
+          <h3 class="pub-title"><a href="https://jiakai-zhang.github.io/cryogem/">CryoGEM: Physics-Informed Generative Cryo-Electron Microscopy</a></h3>
+          <p class="pub-authors"><span class="me">Jiakai Zhang*</span>, Qihe Chen*, Yan Zeng, Wenyuan Gao, Xuming He, Zhijie Liu, and Jingyi Yu</p>
+          <p class="pub-venue">NeurIPS 2024</p>
+          <div class="pub-links">
+            <a href="https://jiakai-zhang.github.io/cryogem/"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://arxiv.org/pdf/2312.02235"><i class="fas fa-file-pdf"></i> Paper</a>
+            <a href="https://github.com/Cellverse/CryoGEM"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        
+        <div class="pub-card">
+          <h3 class="pub-title"><a href="https://duskngai.github.io/draco/">DRACO: Denoising-Reconstruction Autoencoder for Cryo-EM</a></h3>
+          <p class="pub-authors">Yingjun Shen*, Haizhao Dai*, Qihe Chen, Yan Zeng, <span class="me">Jiakai Zhang</span>, Yuan Pei, Jingyi Yu</p>
+          <p class="pub-venue">NeurIPS 2024</p>
+          <div class="pub-links">
+            <a href="https://duskngai.github.io/draco/"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://duskngai.github.io/draco/static/DRACO.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+        
+        <div class="pub-card">
+          <h3 class="pub-title"><a href="https://cryoformer.github.io">CryoFormer: Continuous Heterogeneous Cryo-EM Reconstruction</a></h3>
+          <p class="pub-authors">Xinhang Liu*, Yan Zeng*, Yifan Qin, Hao Li, <span class="me">Jiakai Zhang</span>, Lan Xu, Jingyi Yu</p>
+          <p class="pub-venue">ECCV 2024 Workshop (Spotlight)</p>
+          <div class="pub-links">
+            <a href="https://cryoformer.github.io"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://neural-fields-beyond-cams.github.io/accepted_papers/2.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+        
+        <div class="pub-card">
+          <h3 class="pub-title"><a href="https://aoliao12138.github.io/FPO/">Fourier PlenOctrees for Dynamic Radiance Field Rendering</a></h3>
+          <p class="pub-authors">Liao Wang*, <span class="me">Jiakai Zhang*</span>, Xinhang Liu, Fuqiang Zhao, Yanshun Zhang, Yingliang Zhang, Minye Wu, Lan Xu, Jingyi Yu</p>
+          <p class="pub-venue">CVPR 2022 (Oral)</p>
+          <div class="pub-links">
+            <a href="https://aoliao12138.github.io/FPO/"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://arxiv.org/pdf/2202.08614.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+        
+        <div class="pub-card">
+          <h3 class="pub-title"><a href="https://zhaofuq.github.io/human-nerf/">HumanNeRF: Efficiently Generated Human Radiance Field</a></h3>
+          <p class="pub-authors">Fuqiang Zhao, Wei Yang, <span class="me">Jiakai Zhang</span>, Pei Lin, Yingliang Zhang, Jingyi Yu, Lan Xu</p>
+          <p class="pub-venue">CVPR 2022</p>
+          <div class="pub-links">
+            <a href="https://zhaofuq.github.io/human-nerf/"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://arxiv.org/pdf/2112.02789.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+        
+        <div class="pub-card">
+          <h3 class="pub-title"><a href="https://jiakai-zhang.github.io/st-nerf/">ST-NeRF: Editable Free-Viewpoint Video</a></h3>
+          <p class="pub-authors"><span class="me">Jiakai Zhang</span>, Xinhang Liu, Xinyi Ye, Fuqiang Zhao, Yanshun Zhang, Minye Wu, Yingliang Zhang, Lan Xu and Jingyi Yu</p>
+          <p class="pub-venue">SIGGRAPH 2021</p>
+          <div class="pub-links">
+            <a href="https://jiakai-zhang.github.io/st-nerf/"><i class="fas fa-globe"></i> Project</a>
+            <a href="https://github.com/DarlingHang/st-nerf"><i class="fab fa-github"></i> Code</a>
+            <a href="https://arxiv.org/pdf/2104.14786.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Startup -->
+  <section id="startup">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-rocket"></i> Startup</h2>
+      <div class="startup-card">
+        <h3>🔬 Cellverse (寰渺科技)</h3>
+        <p class="tagline">AI + Protein · Bridging Biology & AI</p>
+        <p>Building the future of protein discovery through computational methods. We're accelerating scientific discovery in structural biology.</p>
+        <a href="https://www.cellverse.tech" target="_blank" class="btn"><i class="fas fa-globe"></i> Visit Website</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+      <div class="exp-list">
+        <div class="exp-card">
+          <div class="exp-period">2024</div>
+          <div class="exp-content">
+            <h3>Research Scientist Intern</h3>
+            <p class="company">Meta Reality Labs, Redmond, WA</p>
+            <p>Summer internship on AR/VR and neural representations.</p>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-period">2022 - Pres</div>
+          <div class="exp-content">
+            <h3>Co-founder</h3>
+            <p class="company">Cellverse (寰渺科技)</p>
+            <p>Building protein-centric AI applications for structural biology.</p>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-period">2022</div>
+          <div class="exp-content">
+            <h3>Research Scientist Intern</h3>
+            <p class="company">Meta Reality Labs, Redmond, WA</p>
+            <p>First internship on neural rendering and 3D reconstruction.</p>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-period">2022 - Pres</div>
+          <div class="exp-content">
+            <h3>Ph.D. Candidate</h3>
+            <p class="company">VRVC Lab, ShanghaiTech University</p>
+            <p>Under supervision of Prof. Jingyi Yu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-paper-plane"></i> Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:zhangjk@shanghaitech.edu.cn">zhangjk@shanghaitech.edu.cn</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="fab fa-github"></i>
+          <div>
+            <h4>GitHub</h4>
+            <a href="https://github.com/Jiakai-Zhang" target="_blank">github.com/Jiakai-Zhang</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <h4>Google Scholar</h4>
+            <a href="#">View Profile</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-globe"></i>
+          <div>
+            <h4>Company</h4>
+            <a href="https://www.cellverse.tech" target="_blank">Cellverse</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Jiakai Zhang. All rights reserved.</p>
+    </div>
+  </footer>
+</Layout>
+
+<style>
+  /* Hero */
+  .hero {
+    padding: 100px 20px 60px;
+    background: linear-gradient(135deg, #1a1a3a 0%, #0a0a14 50%, #0a0a14 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .code-window {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .code-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: var(--bg-card-hover);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+  
+  .code-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .code-dot.red { background: #ff5f56; }
+  .code-dot.yellow { background: #ffbd2e; }
+  .code-dot.green { background: #27c93f; }
+  
+  .code-title {
+    margin-left: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  
+  .code-body {
+    padding: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+  
+  .code-line {
+    display: block;
+    opacity: 0;
+    animation: fadeIn 0.3s ease forwards;
+  }
+  
+  .code-line:nth-child(1) { animation-delay: 0.05s; }
+  .code-line:nth-child(2) { animation-delay: 0.1s; }
+  .code-line:nth-child(3) { animation-delay: 0.15s; }
+  .code-line:nth-child(4) { animation-delay: 0.2s; }
+  .code-line:nth-child(5) { animation-delay: 0.25s; }
+  .code-line:nth-child(6) { animation-delay: 0.3s; }
+  .code-line:nth-child(7) { animation-delay: 0.35s; }
+  .code-line:nth-child(8) { animation-delay: 0.4s; }
+  .code-line:nth-child(9) { animation-delay: 0.45s; }
+  .code-line:nth-child(10) { animation-delay: 0.5s; }
+  .code-line:nth-child(11) { animation-delay: 0.55s; }
+  .code-line:nth-child(12) { animation-delay: 0.6s; }
+  
+  @keyframes fadeIn { to { opacity: 1; } }
+  
+  .keyword { color: #ff7b72; }
+  .string { color: #a5d6ff; }
+  .function { color: #d2a8ff; }
+  .comment { color: #8b949e; font-style: italic; }
+  .operator { color: #8b949e; }
+  
+  .cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: var(--accent-blue);
+    animation: blink 1s infinite;
+    vertical-align: text-bottom;
+  }
+  
+  @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+  
+  .hero-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeIn 0.3s ease 0.8s forwards;
+  }
+  
+  .hero-social a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: var(--bg-card-hover);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  
+  .hero-social a:hover {
+    background: var(--accent-blue);
+    border-color: var(--accent-blue);
+    color: #000;
+  }
+  
+  /* About */
+  .about { max-width: 700px; }
+  .about p { margin-bottom: 16px; font-size: 1rem; }
+  .about strong { color: var(--text-white); }
+  
+  /* News */
+  .news-list { display: flex; flex-direction: column; gap: 12px; }
+  
+  .news-item {
+    display: flex;
+    gap: 16px;
+    padding: 14px 18px;
+    background: var(--bg-card);
+    border-radius: 8px;
+    border-left: 3px solid var(--accent-green);
+  }
+  
+  .news-date {
+    min-width: 70px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--accent-green);
+    font-weight: 600;
+  }
+  
+  .news-content { color: var(--text-muted); font-size: 0.9rem; }
+  .news-content strong { color: var(--text-white); }
+  
+  /* Research */
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  
+  .research-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.2s;
+  }
+  
+  .research-card:hover {
+    border-color: rgba(0,212,255,0.3);
+    transform: translateY(-2px);
+  }
+  
+  .research-card i {
+    font-size: 1.5rem;
+    color: var(--accent-blue);
+    margin-bottom: 12px;
+  }
+  
+  .research-card h3 { font-size: 1rem; margin-bottom: 8px; color: var(--text-white); }
+  .research-card p { font-size: 0.85rem; color: var(--text-muted); }
+  
+  /* Publications */
+  .pub-list { display: flex; flex-direction: column; gap: 16px; }
+  
+  .pub-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-left: 3px solid var(--accent-blue);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.2s;
+  }
+  
+  .pub-card:hover {
+    border-color: rgba(0,212,255,0.4);
+    transform: translateY(-2px);
+  }
+  
+  .pub-title { font-size: 1rem; margin-bottom: 6px; }
+  .pub-title a { color: var(--text-white); }
+  .pub-title a:hover { color: var(--accent-blue); }
+  
+  .pub-authors { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px; }
+  .pub-authors .me { color: var(--text-white); font-weight: 600; }
+  
+  .pub-venue { color: var(--accent-blue); font-weight: 500; font-size: 0.8rem; margin-bottom: 10px; }
+  
+  .pub-links { display: flex; gap: 8px; flex-wrap: wrap; }
+  
+  .pub-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    transition: all 0.2s;
+  }
+  
+  .pub-links a:hover {
+    background: var(--accent-blue);
+    border-color: var(--accent-blue);
+    color: #000;
+  }
+  
+  /* Startup */
+  .startup-card {
+    background: linear-gradient(135deg, var(--bg-card) 0%, #0f0f1a 100%);
+    border: 2px solid var(--accent-green);
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .startup-card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, var(--accent-green), #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .startup-card .tagline { color: var(--accent-green); font-size: 1rem; margin-bottom: 16px; }
+  .startup-card p { color: var(--text-muted); margin-bottom: 20px; }
+  
+  .startup-card .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: var(--accent-green);
+    color: #000;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+  
+  .startup-card .btn:hover {
+    box-shadow: 0 0 20px rgba(0,255,136,0.4);
+    transform: translateY(-2px);
+  }
+  
+  /* Experience */
+  .exp-list { display: flex; flex-direction: column; gap: 16px; }
+  
+  .exp-card {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-left: 3px solid var(--accent-purple);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  
+  .exp-period {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    color: var(--accent-purple);
+    font-weight: 600;
+  }
+  
+  .exp-card h3 { font-size: 1rem; margin-bottom: 4px; color: var(--text-white); }
+  .exp-card .company { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 6px; }
+  .exp-card p { color: var(--text-muted); font-size: 0.85rem; }
+  
+  /* Contact */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  
+  .contact-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 18px;
+    transition: all 0.2s;
+  }
+  
+  .contact-card:hover { border-color: rgba(0,212,255,0.3); }
+  
+  .contact-card i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-card-hover);
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: var(--accent-blue);
+  }
+  
+  .contact-card h4 { font-size: 0.75rem; color: var(--text-muted); font-weight: 500; margin-bottom: 2px; }
+  .contact-card a, .contact-card span { color: var(--text-white); font-size: 0.9rem; font-weight: 500; }
+  
+  @media (max-width: 768px) {
+    .exp-card { grid-template-columns: 1fr; gap: 8px; }
+  }
+</style>
