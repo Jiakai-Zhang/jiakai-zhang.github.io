@@ -1,0 +1,135 @@
+[
+  {
+    "category": "Cryo-EM / AI for Structural Biology",
+    "papers": [
+      {
+        "title": "CryoFastAR: Fast Cryo-EM Ab initio Reconstruction Made Easy",
+        "authors": "Jiakai Zhang, Shaochuan Zhou, Haizhao Dai, Xinhang Liu, Peng Wang, Zongyi Fan, Yuan Pei, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "ICCV 2025",
+        "year": 2025,
+        "links": {}
+      },
+      {
+        "title": "A Large-scale Curated and Filterable Dataset for Cryo-EM Foundation Model Pre-training",
+        "authors": "Qihe Chen, Zicheng Xu, Haizhao Dai, Yingjun Shen, Jiakai Zhang, Zhijie Liu, Yuan Pei, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "Scientific Data 2025",
+        "year": 2025,
+        "links": {}
+      },
+      {
+        "title": "CryoGEM: Physics-Informed Generative Cryo-Electron Microscopy",
+        "authors": "Jiakai Zhang*, Qihe Chen*, Yan Zeng, Wenyuan Gao, Xuming He, Zhijie Liu, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "NeurIPS 2024",
+        "year": 2024,
+        "links": {
+          "project": "https://jiakai-zhang.github.io/cryogem/",
+          "paper": "https://arxiv.org/pdf/2312.02235",
+          "code": "https://github.com/Cellverse/CryoGEM"
+        }
+      },
+      {
+        "title": "DRACO: Denoising-Reconstruction Autoencoder for Cryo-EM",
+        "authors": "Yingjun Shen*, Haizhao Dai*, Qihe Chen, Yan Zeng, Jiakai Zhang, Yuan Pei, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "NeurIPS 2024",
+        "year": 2024,
+        "links": {
+          "project": "https://duskngai.github.io/draco/",
+          "paper": "https://duskngai.github.io/draco/static/DRACO.pdf"
+        }
+      },
+      {
+        "title": "CryoFormer: Continuous Heterogeneous Cryo-EM Reconstruction using Transformer-based Neural Representations",
+        "authors": "Xinhang Liu*, Yan Zeng*, Yifan Qin, Hao Li, Jiakai Zhang, Lan Xu, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "ECCV 2024 Workshop",
+        "highlight": "Spotlight",
+        "year": 2024,
+        "links": {
+          "project": "https://cryoformer.github.io",
+          "paper": "https://drive.google.com/file/d/13fCwom3w_1PsMuV1RPJrfdiiZIOEqtyS/view?pli=1"
+        }
+      }
+    ]
+  },
+  {
+    "category": "AI for Science",
+    "papers": [
+      {
+        "title": "Single-pixel p-graded-n Junction Spectrometers",
+        "authors": "Jiale Wang, Bin Pan, Zheng Wang, Jiakai Zhang, Zikang Zhou, Lingling Yao, Yawen Wu, Wengang Ren, Jiahao Wang",
+        "self": "Jiakai Zhang",
+        "venue": "Nature Communications 2024",
+        "year": 2024,
+        "links": {}
+      }
+    ]
+  },
+  {
+    "category": "Scene Modeling / Neural Rendering",
+    "papers": [
+      {
+        "title": "Fourier PlenOctrees for Dynamic Radiance Field Rendering",
+        "authors": "Liao Wang*, Jiakai Zhang*, Xinhang Liu, Fuqiang Zhao, Yanshun Zhang, Yingliang Zhang, Minye Wu, Lan Xu, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "CVPR 2022",
+        "highlight": "Oral",
+        "year": 2022,
+        "links": {
+          "project": "https://aoliao12138.github.io/FPO/",
+          "paper": "https://arxiv.org/pdf/2202.08614.pdf"
+        }
+      },
+      {
+        "title": "HumanNeRF: Efficiently Generated Human Radiance Field from Sparse Inputs",
+        "authors": "Fuqiang Zhao, Wei Yang, Jiakai Zhang, Pei Lin, Yingliang Zhang, Jingyi Yu, Lan Xu",
+        "self": "Jiakai Zhang",
+        "venue": "CVPR 2022",
+        "year": 2022,
+        "links": {
+          "project": "https://zhaofuq.github.io/human-nerf/",
+          "paper": "https://arxiv.org/pdf/2112.02789.pdf"
+        }
+      },
+      {
+        "title": "Human Performance Modeling and Rendering via Neural Animated Mesh",
+        "authors": "Fuqiang Zhao, Yijia Jiang, Kangkai Yao, Jiakai Zhang, Liao Wang, Haizhao Dai, Yibo Zhong, Yingliang Zhang, Minye Wu",
+        "self": "Jiakai Zhang",
+        "venue": "ACM TOG (SIGGRAPH Asia) 2022",
+        "year": 2022,
+        "links": {}
+      },
+      {
+        "title": "NeuVV: Neural Volumetric Videos with Immersive Rendering and Editing",
+        "authors": "Jiakai Zhang, Liao Wang, Xinhang Liu, Fuqiang Zhao, Mengya Li, Haizhao Dai, Biao Zhang, Wei Yang, Lan Xu, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "arXiv 2022",
+        "year": 2022,
+        "links": {}
+      },
+      {
+        "title": "Editable Free-Viewpoint Video Using a Layered Neural Representation",
+        "authors": "Jiakai Zhang, Xinhang Liu, Xinyi Ye, Fuqiang Zhao, Yanshun Zhang, Minye Wu, Yingliang Zhang, Lan Xu, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "SIGGRAPH 2021",
+        "year": 2021,
+        "links": {
+          "project": "https://jiakai-zhang.github.io/st-nerf/",
+          "code": "https://github.com/DarlingHang/st-nerf",
+          "paper": "https://arxiv.org/pdf/2104.14786.pdf"
+        }
+      },
+      {
+        "title": "LGNN: A Context-Aware Line Segment Detector",
+        "authors": "Qingyong Meng, Jiakai Zhang, Qinghua Hu, Xiaowei He, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "ACM MM 2020",
+        "year": 2020,
+        "links": {}
+      }
+    ]
+  }
+]

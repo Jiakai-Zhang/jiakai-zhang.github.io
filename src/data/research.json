@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "fas fa-dna",
+    "title": "AI + Protein",
+    "description": "Foundation models for Cryo-EM reconstruction and protein structure understanding."
+  },
+  {
+    "icon": "fas fa-brain",
+    "title": "Neural Representations",
+    "description": "NeRF and implicit representations for 3D scene reconstruction."
+  },
+  {
+    "icon": "fas fa-wand-magic-sparkles",
+    "title": "Generative Models",
+    "description": "Diffusion models for scientific imaging and cryo-EM simulation."
+  },
+  {
+    "icon": "fas fa-eye",
+    "title": "Computer Vision",
+    "description": "Deep learning for 3D understanding and scene modeling."
+  }
+]
