@@ -3,7 +3,6 @@ import Layout from '../layouts/Layout.astro';
 import publications from '../data/publications.json';
 import news from '../data/news.json';
 import experience from '../data/experience.json';
-import research from '../data/research.json';
 
 function highlightSelf(authors: string, self: string): string {
   if (!self || !authors.includes(self)) return authors;
@@ -103,15 +102,6 @@ function highlightSelf(authors: string, self: string): string {
     <div class="container">
       <h2 class="section-title">Research</h2>
 
-      <!-- Interests -->
-      <div class="interests">
-        {research.map((r) => (
-          <span class="interest-tag">
-            <i class={r.icon}></i> {r.title}
-          </span>
-        ))}
-      </div>
-
       <!-- Filter tabs -->
       <div class="pub-filters">
         <button class="pub-filter active" data-filter="all">All</button>
@@ -154,6 +144,11 @@ function highlightSelf(authors: string, self: string): string {
                     {paper.links.code && (
                       <a href={paper.links.code} target="_blank">
                         <i class="fab fa-github"></i> Code
+                      </a>
+                    )}
+                    {paper.links.dataset && (
+                      <a href={paper.links.dataset} target="_blank">
+                        <i class="fas fa-database"></i> Dataset
                       </a>
                     )}
                   </div>
@@ -229,13 +224,29 @@ function highlightSelf(authors: string, self: string): string {
   <section id="contact">
     <div class="container">
       <h2 class="section-title">Contact</h2>
-      <a href="mailto:zhangjk@shanghaitech.edu.cn" class="contact-item">
-        <i class="fas fa-envelope"></i>
-        <div>
-          <p class="contact-label">Email</p>
-          <p class="contact-value">zhangjk@shanghaitech.edu.cn</p>
-        </div>
-      </a>
+      <div class="contact-grid">
+        <a href="mailto:jiakai0309@gmail.com" class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <p class="contact-label">Personal</p>
+            <p class="contact-value">jiakai0309@gmail.com</p>
+          </div>
+        </a>
+        <a href="mailto:zhangjk@shanghaitech.edu.cn" class="contact-item">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <p class="contact-label">Academic</p>
+            <p class="contact-value">zhangjk@shanghaitech.edu.cn</p>
+          </div>
+        </a>
+        <a href="mailto:jiakai.zhang@cellverse.tech" class="contact-item">
+          <i class="fas fa-briefcase"></i>
+          <div>
+            <p class="contact-label">Business</p>
+            <p class="contact-value">jiakai.zhang@cellverse.tech</p>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -412,26 +423,6 @@ function highlightSelf(authors: string, self: string): string {
   }
   .news-content { color: var(--text-2); }
   .news-content :global(strong) { color: var(--text); font-weight: 600; }
-
-  /* ── Research interests ─────────────────────────────────── */
-  .interests {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 40px;
-  }
-  .interest-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    padding: 7px 14px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    font-size: 0.85rem;
-    color: var(--text-2);
-  }
-  .interest-tag i { color: var(--accent); font-size: 0.8rem; }
 
   /* ── Publications ───────────────────────────────────────── */
   .pub-filters {

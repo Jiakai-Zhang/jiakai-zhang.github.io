@@ -4,11 +4,15 @@
     "papers": [
       {
         "title": "CryoFastAR: Fast Cryo-EM Ab initio Reconstruction Made Easy",
-        "authors": "Jiakai Zhang, Shaochuan Zhou, Haizhao Dai, Xinhang Liu, Peng Wang, Zongyi Fan, Yuan Pei, Jingyi Yu",
+        "authors": "Jiakai Zhang, Shouchen Zhou, Haizhao Dai, Xinhang Liu, Peihao Wang, Zhiwen Fan, Yuan Pei, Jingyi Yu",
         "self": "Jiakai Zhang",
         "venue": "ICCV 2025",
         "year": 2025,
-        "links": {}
+        "links": {
+          "project": "https://jiakai-zhang.github.io/cryofastar/",
+          "paper": "https://arxiv.org/abs/2506.05864",
+          "code": "https://github.com/Cellverse/CryoFastAR"
+        }
       },
       {
         "title": "A Large-scale Curated and Filterable Dataset for Cryo-EM Foundation Model Pre-training",
@@ -16,7 +20,11 @@
         "self": "Jiakai Zhang",
         "venue": "Scientific Data 2025",
         "year": 2025,
-        "links": {}
+        "links": {
+          "code": "https://github.com/Dylan8527/CryoCRAB",
+          "dataset": "https://www.scidb.cn/detail?dataSetId=14986b67bc4b4816b777c8d378925dc7",
+          "paper": "https://www.nature.com/articles/s41597-025-05179-2"
+        }
       },
       {
         "title": "CryoGEM: Physics-Informed Generative Cryo-Electron Microscopy",
@@ -38,7 +46,8 @@
         "year": 2024,
         "links": {
           "project": "https://duskngai.github.io/draco/",
-          "paper": "https://duskngai.github.io/draco/static/DRACO.pdf"
+          "paper": "https://duskngai.github.io/draco/static/DRACO.pdf",
+          "code": "https://github.com/Cellverse/draco"
         }
       },
       {
@@ -60,11 +69,13 @@
     "papers": [
       {
         "title": "Single-pixel p-graded-n Junction Spectrometers",
-        "authors": "Jiale Wang, Bin Pan, Zheng Wang, Jiakai Zhang, Zikang Zhou, Lingling Yao, Yawen Wu, Wengang Ren, Jiahao Wang",
+        "authors": "Jingyi Wang, Beibei Pan, Zi Wang, Jiakai Zhang, Zhiqi Zhou, Lu Yao, Yanan Wu, Wuwei Ren, Jianyu Wang, Haiming Ji, Jingyi Yu, Baile Chen",
         "self": "Jiakai Zhang",
         "venue": "Nature Communications 2024",
         "year": 2024,
-        "links": {}
+        "links": {
+          "paper": "https://www.nature.com/articles/s41467-024-46066-5"
+        }
       }
     ]
   },
@@ -96,19 +107,24 @@
       },
       {
         "title": "Human Performance Modeling and Rendering via Neural Animated Mesh",
-        "authors": "Fuqiang Zhao, Yijia Jiang, Kangkai Yao, Jiakai Zhang, Liao Wang, Haizhao Dai, Yibo Zhong, Yingliang Zhang, Minye Wu",
+        "authors": "Fuqiang Zhao, Yuheng Jiang, Kaixin Yao, Jiakai Zhang, Liao Wang, Haizhao Dai, Yuhui Zhong, Yingliang Zhang, Minye Wu, Lan Xu, Jingyi Yu",
         "self": "Jiakai Zhang",
         "venue": "ACM TOG (SIGGRAPH Asia) 2022",
         "year": 2022,
-        "links": {}
+        "links": {
+          "project": "https://zhaofuq.github.io/NeuralAM/",
+          "paper": "https://dl.acm.org/doi/pdf/10.1145/3550454.3555451"
+        }
       },
       {
         "title": "NeuVV: Neural Volumetric Videos with Immersive Rendering and Editing",
-        "authors": "Jiakai Zhang, Liao Wang, Xinhang Liu, Fuqiang Zhao, Mengya Li, Haizhao Dai, Biao Zhang, Wei Yang, Lan Xu, Jingyi Yu",
+        "authors": "Jiakai Zhang, Liao Wang, Xinhang Liu, Fuqiang Zhao, Minzhang Li, Haizhao Dai, Boyuan Zhang, Wei Yang, Lan Xu, Jingyi Yu",
         "self": "Jiakai Zhang",
         "venue": "arXiv 2022",
         "year": 2022,
-        "links": {}
+        "links": {
+          "paper": "https://arxiv.org/pdf/2202.06088"
+        }
       },
       {
         "title": "Editable Free-Viewpoint Video Using a Layered Neural Representation",
@@ -123,12 +139,14 @@
         }
       },
       {
-        "title": "LGNN: A Context-Aware Line Segment Detector",
-        "authors": "Qingyong Meng, Jiakai Zhang, Qinghua Hu, Xiaowei He, Jingyi Yu",
+        "title": "LGNN: A Context-aware Line Segment Detector",
+        "authors": "Quan Meng, Jiakai Zhang, Qiang Hu, Xuming He, Jingyi Yu",
         "self": "Jiakai Zhang",
         "venue": "ACM MM 2020",
         "year": 2020,
-        "links": {}
+        "links": {
+          "paper": "https://arxiv.org/pdf/2008.05892"
+        }
       }
     ]
   }
