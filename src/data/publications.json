@@ -3,6 +3,14 @@
     "category": "Cryo-EM / AI for Structural Biology",
     "papers": [
       {
+        "title": "CryoACE: An Atom-centric Framework for Accurate and Automated Model Building in Cryo-EM",
+        "authors": "Minzhang Li, Mingrui Li, Weichen Qin, Qihe Chen, Sixian Shen, Yuan Pei, Jiakai Zhang, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "ICML 2026",
+        "year": 2026,
+        "links": {}
+      },
+      {
         "title": "CryoFastAR: Fast Cryo-EM Ab initio Reconstruction Made Easy",
         "authors": "Jiakai Zhang, Shouchen Zhou, Haizhao Dai, Xinhang Liu, Peihao Wang, Zhiwen Fan, Yuan Pei, Jingyi Yu",
         "self": "Jiakai Zhang",
@@ -67,6 +75,14 @@
   {
     "category": "AI for Science",
     "papers": [
+      {
+        "title": "FUSE: FK-Steered Multi-Modal Flow Matching for Efficient Simulation-Based Posterior Estimation",
+        "authors": "Weichen Qin, Yufan Xie, Peihao Wang, Chia-Jui Chou, Minghui Du, Peng Xu, Ziren Luo, Yi Yang, Jingyi Yu, Bo Liang, Jiakai Zhang",
+        "self": "Jiakai Zhang",
+        "venue": "ICML 2026",
+        "year": 2026,
+        "links": {}
+      },
       {
         "title": "Single-pixel p-graded-n Junction Spectrometers",
         "authors": "Jingyi Wang, Beibei Pan, Zi Wang, Jiakai Zhang, Zhiqi Zhou, Lu Yao, Yanan Wu, Wuwei Ren, Jianyu Wang, Haiming Ji, Jingyi Yu, Baile Chen",
