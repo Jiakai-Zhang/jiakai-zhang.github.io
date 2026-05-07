@@ -9,6 +9,11 @@ function highlightSelf(authors: string, self: string): string {
   const escaped = self.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   return authors.replace(new RegExp(escaped + '\\*?', 'g'), (m) => `<span class="me">${m}</span>`);
 }
+
+const sortedPublications = publications.map((group) => ({
+  ...group,
+  papers: [...group.papers].sort((a, b) => b.year - a.year),
+}));
 ---
 
 <Layout title="Jiakai Zhang">
@@ -105,14 +110,14 @@ function highlightSelf(authors: string, self: string): string {
       <!-- Filter tabs -->
       <div class="pub-filters">
         <button class="pub-filter active" data-filter="all">All</button>
-        {publications.map((group) => (
+        {sortedPublications.map((group) => (
           <button class="pub-filter" data-filter={group.category}>{group.category}</button>
         ))}
       </div>
 
       <!-- Publications -->
       <div class="pub-list">
-        {publications.map((group) => (
+        {sortedPublications.map((group) => (
           <div class="pub-group" data-group={group.category}>
             {group.papers.map((paper) => (
               <div class="pub-card">
