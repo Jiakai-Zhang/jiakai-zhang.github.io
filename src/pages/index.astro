@@ -10,6 +10,10 @@ function highlightSelf(authors: string, self: string): string {
   return authors.replace(new RegExp(escaped + '\\*?', 'g'), (m) => `<span class="me">${m}</span>`);
 }
 
+const allPapersSorted = publications
+  .flatMap((group) => group.papers.map((p) => ({ ...p, category: group.category })))
+  .sort((a, b) => b.year - a.year);
+
 const sortedPublications = publications.map((group) => ({
   ...group,
   papers: [...group.papers].sort((a, b) => b.year - a.year),
@@ -117,8 +121,53 @@ const sortedPublications = publications.map((group) => ({
 
       <!-- Publications -->
       <div class="pub-list">
+        <!-- All papers flat-sorted by year (shown when filter = all) -->
+        <div class="pub-group" data-group="__all__">
+          {allPapersSorted.map((paper) => (
+            <div class="pub-card">
+              <div class="pub-main">
+                <p class="pub-title">
+                  {paper.links.project
+                    ? <a href={paper.links.project} target="_blank">{paper.title}</a>
+                    : paper.title
+                  }
+                </p>
+                <p class="pub-authors" set:html={highlightSelf(paper.authors, paper.self)} />
+                <p class="pub-venue">
+                  {paper.venue}
+                  {paper.highlight && <span class="pub-highlight">{paper.highlight}</span>}
+                </p>
+              </div>
+              {Object.keys(paper.links).length > 0 && (
+                <div class="pub-links">
+                  {paper.links.project && (
+                    <a href={paper.links.project} target="_blank">
+                      <i class="fas fa-globe"></i> Project
+                    </a>
+                  )}
+                  {paper.links.paper && (
+                    <a href={paper.links.paper} target="_blank">
+                      <i class="fas fa-file-pdf"></i> Paper
+                    </a>
+                  )}
+                  {paper.links.code && (
+                    <a href={paper.links.code} target="_blank">
+                      <i class="fab fa-github"></i> Code
+                    </a>
+                  )}
+                  {paper.links.dataset && (
+                    <a href={paper.links.dataset} target="_blank">
+                      <i class="fas fa-database"></i> Dataset
+                    </a>
+                  )}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+        <!-- Per-category groups (shown when a category filter is active) -->
         {sortedPublications.map((group) => (
-          <div class="pub-group" data-group={group.category}>
+          <div class="pub-group" data-group={group.category} style="display:none">
             {group.papers.map((paper) => (
               <div class="pub-card">
                 <div class="pub-main">
@@ -175,7 +224,11 @@ const sortedPublications = publications.map((group) => ({
 
             const target = btn.dataset.filter;
             groups.forEach(g => {
-              g.style.display = (target === 'all' || g.dataset.group === target) ? 'flex' : 'none';
+              if (target === 'all') {
+                g.style.display = g.dataset.group === '__all__' ? 'flex' : 'none';
+              } else {
+                g.style.display = g.dataset.group === target ? 'flex' : 'none';
+              }
             });
           });
         });
