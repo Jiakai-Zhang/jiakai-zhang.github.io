@@ -3,6 +3,17 @@
     "category": "Cryo-EM / AI for Structural Biology",
     "papers": [
       {
+        "title": "Cryo-EM as latent structural landscape microscopy",
+        "authors": "Haizhao Dai, Qihe Chen, Lingqi Li, Yingjun Shen, Zhenyang Xu, Minzhang Li, Yufan Xie, Jingjing Zheng, Zhijie Liu, Liping Sun, Yuan Pei, Jiakai Zhang, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "bioRxiv 2026",
+        "year": 2026,
+        "links": {
+          "paper": "https://www.biorxiv.org/content/10.64898/2026.04.10.717737v2",
+          "code": "https://github.com/Cellverse/cryouni"
+        }
+      },
+      {
         "title": "CryoACE: An Atom-centric Framework for Accurate and Automated Model Building in Cryo-EM",
         "authors": "Minzhang Li, Mingrui Li, Weichen Qin, Qihe Chen, Sixian Shen, Yuan Pei, Jiakai Zhang, Jingyi Yu",
         "self": "Jiakai Zhang",
