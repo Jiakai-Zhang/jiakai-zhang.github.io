@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>潜水员戴夫翻牌记牌器</title>
+<style>
+body{margin:0;background:#102018;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+.app{max-width:520px;margin:auto;padding:16px}
+h1{font-size:22px;margin:0 0 8px}
+p{margin:0 0 12px;color:#b9cbbf;font-size:13px;line-height:1.5}
+#tip{background:#183628;border:1px solid #2e6a4a;padding:10px 12px;border-radius:12px;margin-bottom:12px;font-weight:700}
+.board{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.card{aspect-ratio:1.45/1;border:0;border-radius:12px;background:#cb3e3e;color:#fff;font-size:25px;font-weight:800;position:relative;box-shadow:inset 0 0 0 2px rgba(255,255,255,.16)}
+.card small{position:absolute;left:7px;top:5px;font-size:10px;opacity:.7}
+.card.known{background:#f0eadc;color:#172119}
+.card.match{outline:4px solid #60e39c}
+.card.done{background:#334239;color:#718279;opacity:.7}
+.panel{background:#18271f;border-radius:14px;padding:12px;margin-top:14px}
+.palette{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.sym{border:0;background:#2a3c31;color:white;border-radius:10px;padding:12px 0;font-size:19px;font-weight:800}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.action{border:0;border-radius:10px;padding:12px;background:#304b3b;color:#fff;font-weight:700}
+.danger{background:#593333}
+#picker{display:none;position:fixed;inset:0;background:rgba(0,0,0,.58);align-items:flex-end;z-index:5}
+.sheet{width:100%;background:#15221b;padding:16px 16px 28px;border-radius:18px 18px 0 0}
+.sheet h2{font-size:16px;margin:0 0 10px}
+.sheetgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.pick{border:0;border-radius:11px;padding:14px 0;background:#2b4033;color:#fff;font-size:19px;font-weight:800}
+.pick.donebtn{background:#28764b;font-size:14px}
+.pick.clearbtn{background:#6a3535;font-size:14px}
+</style>
+</head>
+<body>
+<div class="app">
+<h1>潜水员戴夫 · 翻牌记牌器</h1>
+<p>点对应位置 → 选择图案编号。相同编号出现两张时会自动绿色高亮。</p>
+<div id="tip">先翻一张牌，再点对应格子记录。</div>
+<div class="board" id="board"></div>
+<div class="panel">
+  <div class="palette" id="palette"></div>
+  <div class="row">
+    <button class="action" onclick="undo()">撤销</button>
+    <button class="action danger" onclick="resetGame()">新一局</button>
+  </div>
+</div>
+</div>
+
+<div id="picker" onclick="if(event.target===this)closePicker()">
+  <div class="sheet">
+    <h2 id="pickTitle">选择图案</h2>
+    <div class="sheetgrid" id="pickGrid"></div>
+  </div>
+</div>
+
+<script>
+const N=18,C=3,SYMS=['1','2','3','4','5','6','7','8','9'];
+let state=JSON.parse(localStorage.getItem('dave_mem')||'null')||Array.from({length:N},()=>({s:null,d:false}));
+let hist=[], current=null;
+const pos=i=>String.fromCharCode(65+i%C)+(Math.floor(i/C)+1);
+const alive=s=>state.map((x,i)=>x.s===s&&!x.d?i:-1).filter(i=>i>=0);
+const pairs=()=>SYMS.filter(s=>alive(s).length>=2);
+
+function save(){localStorage.setItem('dave_mem',JSON.stringify(state))}
+function snap(){hist.push(JSON.stringify(state))}
+function render(){
+ const b=document.getElementById('board'); b.innerHTML='';
+ let m=new Set(); pairs().forEach(s=>alive(s).slice(0,2).forEach(i=>m.add(i)));
+ state.forEach((x,i)=>{
+   let el=document.createElement('button'); el.className='card';
+   if(x.s)el.classList.add('known'); if(m.has(i))el.classList.add('match'); if(x.d)el.classList.add('done');
+   el.innerHTML='<small>'+pos(i)+'</small>'+(x.d?'✓':(x.s||'○'));
+   el.onclick=()=>openPicker(i); b.appendChild(el);
+ });
+ const p=pairs(), tip=document.getElementById('tip');
+ if(p.length){let a=alive(p[0]).slice(0,2);tip.innerHTML='可配对：<b>'+p[0]+'</b> → <b>'+pos(a[0])+'</b> + <b>'+pos(a[1])+'</b>'}
+ else tip.textContent=state.some(x=>x.s&&!x.d)?'暂无已知配对，继续翻牌。':'先翻一张牌，再点对应格子记录。';
+ renderPalette(); save();
+}
+function renderPalette(){
+ const p=document.getElementById('palette');p.innerHTML='';
+ SYMS.forEach(s=>{let b=document.createElement('button');b.className='sym';b.textContent=s;b.onclick=()=>{let i=state.findIndex(x=>!x.s&&!x.d);if(i>=0)assign(i,s)};p.appendChild(b)})
+}
+function openPicker(i){
+ current=i;document.getElementById('picker').style.display='flex';
+ document.getElementById('pickTitle').textContent=pos(i)+' 选择图案';
+ const g=document.getElementById('pickGrid');g.innerHTML='';
+ SYMS.forEach(s=>{let b=document.createElement('button');b.className='pick';b.textContent=s;b.onclick=()=>assign(i,s);g.appendChild(b)});
+ if(state[i].s&&!state[i].d){let b=document.createElement('button');b.className='pick donebtn';b.textContent='配对✓';b.onclick=()=>markDone(i);g.appendChild(b)}
+ let c=document.createElement('button');c.className='pick clearbtn';c.textContent=state[i].s?'清除':'取消';c.onclick=()=>state[i].s?clearCard(i):closePicker();g.appendChild(c);
+}
+function closePicker(){document.getElementById('picker').style.display='none'}
+function assign(i,s){snap();state[i]={s,d:false};closePicker();render()}
+function clearCard(i){snap();state[i]={s:null,d:false};closePicker();render()}
+function markDone(i){
+ let a=alive(state[i].s); if(a.length<2){alert('还没有找到第二张同图案牌');return}
+ snap();a.slice(0,2).forEach(j=>state[j].d=true);closePicker();render()
+}
+function undo(){if(hist.length){state=JSON.parse(hist.pop());render()}}
+function resetGame(){if(confirm('清空当前记录，开始新一局？')){snap();state=Array.from({length:N},()=>({s:null,d:false}));render()}}
+render();
+</script>
+</body>
+</html>
