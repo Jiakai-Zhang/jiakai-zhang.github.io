@@ -19,7 +19,11 @@
         "self": "Jiakai Zhang",
         "venue": "ICML 2026",
         "year": 2026,
-        "links": {}
+        "links": {
+          "project": "https://l1mzh0317.github.io/cryoace/",
+          "paper": "https://arxiv.org/abs/2606.31332",
+          "code": "https://github.com/Cellverse/CryoACE"
+        }
       },
       {
         "title": "CryoFastAR: Fast Cryo-EM Ab initio Reconstruction Made Easy",
@@ -92,7 +96,11 @@
         "self": "Jiakai Zhang",
         "venue": "ICML 2026",
         "year": 2026,
-        "links": {}
+        "links": {
+          "project": "https://qinwch.github.io/FUSE/",
+          "paper": "https://arxiv.org/abs/2607.05252",
+          "code": "https://github.com/qinwch/FUSE"
+        }
       },
       {
         "title": "Single-pixel p-graded-n Junction Spectrometers",
