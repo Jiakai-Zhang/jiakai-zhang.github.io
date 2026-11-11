@@ -47,18 +47,10 @@ const sortedPublications = publications.map((group) => ({
             <p>
               I co-founded <strong>Cellverse (寰渺科技)</strong> to build AI tools for
               structural biology and drug discovery. At Cellverse, I'm building
-              <strong>Ariadne</strong>, an AI agent that guides cryo-EM workflows from
+              <a href="https://ariadne.cn/introducing-ariadne.html" target="_blank" rel="noopener noreferrer" class="ariadne-link">Ariadne</a>, an AI agent that guides cryo-EM workflows from
               raw data to interpretable structures. Previously, I worked at
               <strong>Meta Reality Labs</strong> on neural rendering and AR/VR.
             </p>
-          </div>
-          <div class="hero-actions">
-            <a href="https://ariadne.cn/" target="_blank" rel="noopener noreferrer" class="hero-action hero-action-primary">
-              Ariadne <i class="fas fa-arrow-right" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.cellverse.tech" target="_blank" rel="noopener noreferrer" class="hero-action">
-              Cellverse <i class="fas fa-arrow-right" aria-hidden="true"></i>
-            </a>
           </div>
           <div class="hero-links">
             <a href="mailto:zhangjk@shanghaitech.edu.cn" class="hero-link">
@@ -83,16 +75,17 @@ const sortedPublications = publications.map((group) => ({
             <span class="code-title">jiakai.py</span>
           </div>
           <div class="code-body">
-            <span class="code-line comment"># Ph.D. Candidate &amp; Founder</span>
+            <span class="code-line comment"># Assistant Researcher &amp; Co-founder</span>
             <span class="code-line"></span>
             <span class="code-line"><span class="kw">from</span> <span class="str">shanghaitech</span> <span class="kw">import</span> <span class="fn">VRVC_Lab</span></span>
             <span class="code-line"><span class="kw">from</span> <span class="str">cryoem</span> <span class="kw">import</span> <span class="fn">FoundationModels</span></span>
             <span class="code-line"><span class="kw">from</span> <span class="str">ai</span> <span class="kw">import</span> <span class="fn">GenerativeModels</span></span>
             <span class="code-line"><span class="kw">from</span> <span class="str">startup</span> <span class="kw">import</span> <span class="fn">Cellverse</span>  <span class="comment"># Co-founder</span></span>
+            <span class="code-line"><span class="kw">from</span> <span class="str">cellverse</span> <span class="kw">import</span> <span class="fn">Ariadne</span></span>
             <span class="code-line"></span>
             <span class="code-line"><span class="kw">def</span> <span class="fn">main</span><span class="op">():</span></span>
             <span class="code-line">&nbsp;&nbsp;<span class="fn">research</span><span class="op">(</span><span class="str">"AI + Protein"</span><span class="op">)</span></span>
-            <span class="code-line">&nbsp;&nbsp;<span class="fn">build</span><span class="op">(</span><span class="str">"Future of Biotech"</span><span class="op">)</span></span>
+            <span class="code-line">&nbsp;&nbsp;<span class="fn">build</span><span class="op">(</span><span class="fn">Ariadne</span><span class="op">)</span></span>
             <span class="code-line">&nbsp;&nbsp;<span class="kw">return</span> <span class="fn">impact</span><span class="op">(</span><span class="str">scale</span><span class="op">=</span><span class="str">"global"</span><span class="op">)</span><span class="cursor"></span></span>
           </div>
         </div>
@@ -364,32 +357,7 @@ const sortedPublications = publications.map((group) => ({
     gap: 10px;
   }
   .hero-bio strong { color: var(--text); }
-  .hero-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 20px;
-  }
-  .hero-action {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 20px;
-    border: 1px solid var(--border);
-    border-radius: 7px;
-    background: var(--bg-card);
-    color: var(--text);
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
-  .hero-action:hover { border-color: var(--accent); color: var(--accent); }
-  .hero-action-primary,
-  .hero-action-primary:hover {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: var(--bg);
-  }
-  .hero-action:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .ariadne-link { font-weight: 600; }
   .hero-links {
     display: flex;
     gap: 10px;
