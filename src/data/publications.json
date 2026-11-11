@@ -91,6 +91,17 @@
     "category": "AI for Science",
     "papers": [
       {
+        "title": "Physics-Informed Implicit Neural Representations in Biomedical Tomography: Principles, Applications, and Reliability",
+        "authors": "Yuyao Zhang, Qing Wu, Tianqi Yu, Xuanyu Tian, Xin Shen, Xin Li, Jiayue Chu, Guoyan Lao, Haoyuan Le, Chenhe Du, Bowen Li, Jiangjie Wu, Peifu Liu, Jiakai Zhang, Weijia Zhao, Wuwei Ren, Xiran Cai, Rui Zheng, Dong Liang, Jingyi Yu, Hongen Liao, Hongjiang Wei",
+        "self": "Jiakai Zhang",
+        "venue": "IEEE Reviews in Biomedical Engineering (RBME) 2026",
+        "highlight": "Review",
+        "year": 2026,
+        "links": {
+          "paper": "https://ieeexplore.ieee.org/document/11780553"
+        }
+      },
+      {
         "title": "FUSE: FK-Steered Multi-Modal Flow Matching for Efficient Simulation-Based Posterior Estimation",
         "authors": "Weichen Qin, Yufan Xie, Peihao Wang, Chia-Jui Chou, Minghui Du, Peng Xu, Ziren Luo, Yi Yang, Jingyi Yu, Bo Liang, Jiakai Zhang",
         "self": "Jiakai Zhang",
