@@ -47,7 +47,9 @@ const sortedPublications = publications.map((group) => ({
             <p>
               Beyond the lab, I co-founded
               <a href="https://www.cellverse.tech" target="_blank"><strong>Cellverse (寰渺科技)</strong></a>
-              to bring these tools to real-world drug discovery. I've also spent time at
+              to bring these tools to real-world drug discovery. I'm building
+              <a href="https://ariadne.cn/" target="_blank" rel="noopener noreferrer"><strong>Ariadne</strong></a>,
+              an AI agent for evidence-guided cryo-EM workflows. I've also spent time at
               <strong>Meta Reality Labs</strong> working on neural rendering and AR/VR.
             </p>
           </div>
@@ -103,6 +105,29 @@ const sortedPublications = publications.map((group) => ({
           </li>
         ))}
       </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <article class="project-card">
+        <h3><a href="https://ariadne.cn/" target="_blank" rel="noopener noreferrer">Project Ariadne</a></h3>
+        <p>
+          An AI agent for structural biology, built at Cellverse. Ariadne guides cryo-EM
+          workflows from particle curation and 3D reconstruction to atomic model building,
+          coordinating specialist tools and keeping scientific decisions traceable.
+        </p>
+        <div class="project-links">
+          <a href="https://ariadne.cn/" target="_blank" rel="noopener noreferrer" class="startup-btn">
+            Visit Ariadne <i class="fas fa-arrow-right" aria-hidden="true"></i>
+          </a>
+          <a href="https://ariadne.cn/introducing-ariadne.html" target="_blank" rel="noopener noreferrer">
+            Read the introduction
+          </a>
+        </div>
+      </article>
     </div>
   </section>
 
@@ -482,6 +507,34 @@ const sortedPublications = publications.map((group) => ({
   .news-content { color: var(--text-2); }
   .news-content :global(strong) { color: var(--text); font-weight: 600; }
 
+  /* ── Projects ───────────────────────────────────────────── */
+  #projects { scroll-margin-top: 56px; }
+  .project-card {
+    padding: 28px 32px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+  .project-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .project-card h3 a { color: var(--text); }
+  .project-card h3 a:hover { color: var(--accent); }
+  .project-card p { font-size: 0.95rem; line-height: 1.7; }
+  .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px 24px;
+    margin-top: 22px;
+    font-size: 0.875rem;
+  }
+  .project-links .startup-btn,
+  .project-links .startup-btn:hover { color: var(--bg); }
+
   /* ── Publications ───────────────────────────────────────── */
   .pub-filters {
     display: flex;
@@ -699,6 +752,6 @@ const sortedPublications = publications.map((group) => ({
     .exp-item { grid-template-columns: 1fr; gap: 4px; }
     .exp-period { font-size: 0.75rem; }
 
-    .startup-card { padding: 20px; }
+    .startup-card, .project-card { padding: 20px; }
   }
 </style>
