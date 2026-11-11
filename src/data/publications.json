@@ -3,6 +3,19 @@
     "category": "Cryo-EM / AI for Structural Biology",
     "papers": [
       {
+        "title": "CryoAtlas: A Large Curated Dataset and Unified Benchmark for Cryo-EM Atomic Model Building",
+        "authors": "Mingrui Li, Minzhang Li, Weichen Qin, Yufan Xie, Zhangzhi Xiong, Sixian Shen, Jiakai Zhang, Yuan Pei, Jingyi Yu",
+        "self": "Jiakai Zhang",
+        "venue": "NeurIPS 2026 Evaluations & Datasets Track",
+        "year": 2026,
+        "links": {
+          "project": "https://oulling.github.io/cryoatlas/",
+          "paper": "https://arxiv.org/abs/2610.41411",
+          "code": "https://github.com/oulling/CryoAtlas-Code",
+          "dataset": "https://huggingface.co/datasets/markfaa/CryoAtlas"
+        }
+      },
+      {
         "title": "Cryo-EM as latent structural landscape microscopy",
         "authors": "Haizhao Dai, Qihe Chen, Lingqi Li, Yingjun Shen, Zhenyang Xu, Minzhang Li, Yufan Xie, Jingjing Zheng, Zhijie Liu, Liping Sun, Yuan Pei, Jiakai Zhang, Jingyi Yu",
         "self": "Jiakai Zhang",
